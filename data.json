@@ -3,11 +3,13 @@
     "description": "Nice to meet you!",
     "data": [
         {
-            "name": "zhou huanyu",
+            "icon": "zhouhuanyu.png",
+            "name": "Zhou Huanyu",
             "releaseYear": "2018.3"
         },
         {
-            "name": "xu weili",
+            "icon": "xuweili.png",
+            "name": "Xu Weili",
             "releaseYear": "2018.6"
         }
     ]
