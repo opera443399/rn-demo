@@ -10,7 +10,6 @@ export default class FetchExample extends Component {
     console.log('@constructor');
     super(props);
     this.state = { isLoading: true }
-    this.apiGetData = this.apiGetData.bind(this);
   }
 
   componentDidMount() {
@@ -33,10 +32,10 @@ export default class FetchExample extends Component {
       <View style={styles.container}>
         <StatusBar barStyle="light-content" />
         <View style={styles.header}>
-          <Text style={styles.title}>AwosomeBoys</Text>
+          <Text style={styles.title}>{this.state.dataTitle}</Text>
         </View>
         <View style={styles.msg}>
-          <Text style={styles.subtitle}>{this.state.dataTitle}</Text>
+          <Text style={styles.subtitle}>{this.state.dataDesc}</Text>
         </View>
         <View style={styles.content}>
           <FlatList
@@ -64,6 +63,7 @@ export default class FetchExample extends Component {
       this.setState({
         isLoading: false,
         dataTitle: responseJson.title,
+        dataDesc: responseJson.description,
         dataSource: responseJson.data,
       });
     } catch (error) {
