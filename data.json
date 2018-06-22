@@ -1,16 +1,16 @@
 {
-    "title": "AwosomeBoys",
-    "description": "**take my hat off to you guys**",
-    "data": [
-        {
-            "icon": "zhouhuanyu.png",
-            "name": "Zhou Huanyu",
-            "releaseYear": "2018.3"
-        },
-        {
-            "icon": "xuweili.png",
-            "name": "Xu Weili",
-            "releaseYear": "2018.6"
-        }
-    ]
+  "title": "AwosomeBoys",
+  "description": "**take my hat off to you guys**",
+  "data": [
+    {
+      "icon": "zhouhuanyu.png",
+      "name": "Zhou Huanyu",
+      "releaseYear": "2018.3"
+    },
+    {
+      "icon": "xuweili.png",
+      "name": "Xu Weili",
+      "releaseYear": "2018.6"
+    }
+  ]
 }

@@ -5,7 +5,8 @@ import styles from './css'
 let uriJsonDemo = 'https://raw.githubusercontent.com/opera443399/rn-demo/master/data.json';
 let uriImageDemoPrefix = 'https://raw.githubusercontent.com/opera443399/rn-demo/master/images/';
 
-export default class FetchExample extends Component {
+type Props = {};
+export default class App extends Component<Props> {
   constructor(props) {
     console.log('@constructor');
     super(props);
@@ -71,7 +72,3 @@ export default class FetchExample extends Component {
     }
   }
 }
-
-
-// skip this line if using Create React Native App
-AppRegistry.registerComponent('demo1', () => FetchExample);
