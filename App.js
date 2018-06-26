@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry, ActivityIndicator, FlatList, Image, Text, View, StatusBar } from 'react-native';
+import { ActivityIndicator, FlatList, Image, Text, View, StatusBar } from 'react-native';
 import styles from './css'
 
 let uriJsonDemo = 'https://raw.githubusercontent.com/opera443399/rn-demo/master/data.json';
